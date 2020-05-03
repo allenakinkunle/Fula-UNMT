@@ -1,5 +1,3 @@
-import json
-import os
 import scrapy
 from scrapy.http import FormRequest
 
