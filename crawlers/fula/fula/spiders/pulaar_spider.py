@@ -12,9 +12,12 @@ class PulaarSpider(scrapy.Spider):
         yield from response.follow_all(next_link, self.parse)
 
     def parse_articles(self, response):
+        date = response.css('.entry-date::text').get().strip()
+        url = response.url
+
         for paragraph in response.css('div.td-post-content p::text'):
             yield {
                 'text': paragraph.get().strip(),
-                'date': response.css('.entry-date::text').get().strip(),
-                'url': response.url
+                'date': date,
+                'url': url
             }
