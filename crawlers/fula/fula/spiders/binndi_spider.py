@@ -1,5 +1,4 @@
 import scrapy
-from scrapy.http import FormRequest
 
 class BinndiSpider(scrapy.Spider):
     name = 'binndi'
