@@ -8,6 +8,7 @@ I decided to work on Unsupervised Neural Machine Translation (UNMT) for Fula. Fu
 We used Scrapy to crawl a number of websites to get monolingual data for the Fula language. These websites are:
 - [Pulaar.org - A multimedia news and advocacy website in Pulaar (Mauritania)](https://pulaar.org/)
 - [Binndi Pulaar - A news website on culture, history, language, and politics](https://binndipulaar.com/)
+- [Fula Wikipedia](https://ff.wikipedia.org/wiki/Hello_ja%C9%93%C9%93orgo)
 
 The code for all the crawlers are in the `crawlers` folder of this project.
 
