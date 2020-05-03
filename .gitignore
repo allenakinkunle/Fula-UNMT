@@ -1,0 +1,5 @@
+*.csv
+.DS_Store
+__pycache__
+.scrapy
+.vscode/*
