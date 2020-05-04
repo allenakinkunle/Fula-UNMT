@@ -13,6 +13,7 @@ We used Scrapy to crawl a number of websites to get monolingual data for the Ful
 - [Ndiaye Demba Astel's blog](http://www.pulaaronline.com/)
 - [Teddungal Damal Pulaaku](https://teddungal.wordpress.com/)
 - [Hammadi-Jah (Science Blog - Mauritania)](https://hammadi-jah.skyrock.com/)
+- [Pulaar New TestamentBible 2011](https://live.bible.is/bible/FUFPBT/)
 
 The code for all the crawlers are in the `crawlers` folder of this project.
 
