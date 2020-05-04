@@ -12,6 +12,7 @@ We used Scrapy to crawl a number of websites to get monolingual data for the Ful
 - [Koode Radio International (Nigeria)](https://koode.net/)
 - [Dingiral Fulbe (Senegal)](https://dingiralfulbe.com/)
 - [Ndiaye Demba Astel's blog](http://www.pulaaronline.com/)
+- [Teddungal Damal Pulaaku](https://teddungal.wordpress.com/)
 
 The code for all the crawlers are in the `crawlers` folder of this project.
 
